@@ -73,4 +73,10 @@ wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "e33b5fe52f" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "./wp-admin/admin-ajax.php?action=rest-nonce";
-</script> <script src='./js/gutenverse-assets-js-frontend.js' id='gutenverse-frontend-event-js'></script> </body> </html>
+</script> <script src='./js/gutenverse-assets-js-frontend.js' id='gutenverse-frontend-event-js'></script> <script>
+		if(navigator.userAgentData.mobile){
+			alert("This website is not made for mobile devices, please view it on a PC");
+		
+		}
+		
+	</script></body> </html>
